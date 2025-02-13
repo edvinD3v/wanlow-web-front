@@ -1,10 +1,11 @@
 import WelcomeListItem from "./ui/WelcomeListItem";
+import "../styles/welcomeBox.css";
 
 export default function WelcomeBox() {
 
   return (
     <div className="flex flex-wrap mx-[8%] mt-[140px] gap-[30px]">
-        <div className="flex flex-col flex-2 min-w-[350px]">
+        <div className="flex flex-col flex-2 min-w-[350px]" id="welcomeSection">
             <div className="flex items-center mt-[60px]">
                 <h1 
                     className="text-textPrimary text-[60px]"
@@ -40,7 +41,7 @@ export default function WelcomeBox() {
         </div>
 
         <div className="flex-3 flex justify-center items-center">
-            <img className="min-w-[520px] max-h-[680px] sm:w-[70%]" src="/images/welcomeImg.webp" alt="" />
+            <img className="min-w-[520px] max-h-[680px] sm:w-[80%]" id="welcomeImg" src="/images/welcomeImg.webp" alt="" />
         </div>
         
     </div>

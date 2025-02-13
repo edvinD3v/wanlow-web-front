@@ -4,7 +4,7 @@ import WelcomeBox from "./WelcomeBox";
 export default function HowItWorks() {
 
   return (
-    <div className="relative flex flex-col h-[2000px] w-full">
+    <div className="relative flex flex-col overflow-hidden h-fit w-full">
         <img
             className="absolute top-[36px] object-cover -z-1 h-[327px]" 
             src="/images/background/bgTrail1.webp" 

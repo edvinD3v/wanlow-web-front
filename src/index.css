@@ -20,6 +20,7 @@
 
 @theme {
   --breakpoint-md: 940px;
+  --breakpoint-vlg: 1300px;
   --color-background: #eae8e7;
   --color-textPrimary: #483729;
   --color-textPrimaryHover: #7ec6bc;
