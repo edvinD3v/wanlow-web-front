@@ -1,0 +1,33 @@
+@media (max-width: 1145px) {
+    #outdoorMain {
+        height: 100px;
+    }
+    #outdoorMain2 {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    #rightImages {
+        flex-direction: row;
+        align-items: center;
+        margin-top: 0;
+        object-position: top;
+        width: 100%;
+    }
+    #leftImages {
+        min-width: 100px;
+    }
+    #image2 {
+        height: 100%;
+    }
+    #rightImages img {
+        flex: 1;
+        width: 50px;            
+    }
+}
+
+@media (max-width: 745px) {
+    #floatingNote {
+        width: 300px;
+        height: 100%;
+    }
+}

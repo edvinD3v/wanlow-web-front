@@ -1,0 +1,43 @@
+@import "tailwindcss";
+
+@layer utilities {
+  .navBtn {
+    color: var(--color-textPrimary);
+    text-align: left;
+    font-family: "Noto Sans Display", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 25px;
+    font-style: normal;
+    font-variant: normal;
+    transition: color 0.3s ease-out;
+  }
+
+.navBtn:hover {
+  color: var(--color-textPrimaryHover);
+}
+}
+
+@theme {
+  --breakpoint-vsm: 375px;
+  --breakpoint-vmd: 420px;
+  --breakpoint-md: 940px;
+  --breakpoint-vlg: 1300px;
+  --color-background: #eae8e7;
+  --color-textPrimary: #483729;
+  --color-textPrimaryHover: #7ec6bc;
+}
+
+body {
+  background-color: var(--color-background);
+  margin: 0;
+  min-width: 100%;
+  max-width: 100vw;
+  overflow-x: hidden;
+  min-height: 100vh;
+}
+
+html {
+  overflow-x: hidden;
+  width: 100vw;
+}

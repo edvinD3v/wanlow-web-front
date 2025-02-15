@@ -1,0 +1,16 @@
+@media (max-width: 630px) {
+    #welcomeImg {
+        min-width: 250px;
+    }
+    #welcomeSection {
+        min-width: 250px;
+    }
+    #welcomeSection h1 {
+    }
+}
+
+@media (max-width: 425px) {
+    #welcomeSection h1 {
+        font-size: 40px;
+    }
+}
