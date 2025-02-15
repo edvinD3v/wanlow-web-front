@@ -31,10 +31,12 @@ export default function InstructionCard({ id }: InstructionCardProps) {
   if (!item) return null;
   
   return (
-    <div className="relative flex flex-col flex-1 justify-start items-center sm:min-w-[355px] min-w-[300px] max-w-[550px]"
-    style={{
-      background: "radial-gradient(circle, rgba(0,0,0,0.5) 20%, rgba(0,0,0,0) 60%)",
-  }}>
+    <div 
+      className="relative flex flex-col flex-1 justify-start items-center sm:min-w-[355px] min-w-[300px] max-w-[550px]"
+      style={{
+        background: "radial-gradient(circle, rgba(0,0,0,0.5) 20%, rgba(0,0,0,0) 60%)",
+      }}
+    >
       <img
           className="w-full block object-contain max-h-full"
           src={item.image}
