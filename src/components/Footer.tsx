@@ -71,9 +71,9 @@ export default function Footer() {
             </svg>
 
             <div className="relative flex px-[8%] z-10 flex-wrap">
-                <div className="flex flex-2 flex-col min-w-[375px]">
-                    <img className="h-[280px] object-contain object-left" src="/images/WanlowLogoShield.webp" alt="" />
-                    <div className="flex gap-[30px] mt-[40px]">
+                <div className="flex flex-2 flex-col vmd:min-w-[375px] min-w-[200px]">
+                    <img className="h-[280px] object-contain sm:object-left object-center" src="/images/WanlowLogoShield.webp" alt="" />
+                    <div className="flex gap-[30px] mt-[40px] sm:justify-start justify-center">
                         <svg id="Component_19_2" data-name="Component 19 – 2" xmlns="http://www.w3.org/2000/svg" width="55" height="55" viewBox="0 0 55 55">
                             <g id="Component_18_1" data-name="Component 18 – 1">
                                 <circle id="Ellipse_3" data-name="Ellipse 3" cx="27.5" cy="27.5" r="27.5" fill="#fff"/>
@@ -119,7 +119,7 @@ export default function Footer() {
                         </p>
                     </div>
                 </div>
-                <div className="flex flex-1 flex-col mt-[46px] gap-[24px] min-w-[155px]">
+                <div className="flex flex-1 flex-col mt-[46px] gap-[24px] min-w-[155px] sm:text-left text-center">
                     <p
                         className="text-textPrimary text-[16px]"
                         style={{ fontFamily: "Noto Sans Display, sans-serif"}}
@@ -152,14 +152,14 @@ export default function Footer() {
                     </p>
                 </div>
 
-                <div className="flex flex-2 flex-col mt-[46px] min-w-[405px]">
+                <div className="flex flex-2 flex-col mt-[46px] sm:min-w-[405px] vsm:min-w-[300px] min-w-[200px] sm:items-start items-center pb-[30px]">
                     <h3
-                        className="text-[30px] text-textPrimary"
+                        className="text-[30px] text-textPrimary sm:text-left text-center"
                         style={{ fontFamily: "Mouse Memoirs, sans-serif"}}
                     >
                         Sign Up To Receive Exclusive Offers, Content And More!
                     </h3>
-                    <div className="flex mt-[20px] gap-[10px]">
+                    <div className="flex flex-wrap mt-[20px] gap-[10px] sm:justify-start justify-center w-full sm:max-w-fit max-w-min">
 
                         <ThemeProvider theme={theme}>
                             <TextField label="Enter your email" />
@@ -167,7 +167,7 @@ export default function Footer() {
 
 
                         <button
-                            className="rounded-md bg-[#7ec6bc] text-[#483729] h-[50px] w-[118px] text-[20px] hover:bg-[#629a92] hover:text-white transition duration-300" 
+                            className="rounded-md bg-[#7ec6bc] text-[#483729] h-[50px] min-w-[118px] text-[20px] hover:bg-[#629a92] hover:text-white transition duration-300" 
                             style={{ fontFamily: "Mouse Memoirs, sans-serif" }}
                         >
                             Sign In

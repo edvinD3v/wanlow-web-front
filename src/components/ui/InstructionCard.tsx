@@ -31,7 +31,10 @@ export default function InstructionCard({ id }: InstructionCardProps) {
   if (!item) return null;
   
   return (
-    <div className="relative flex flex-col flex-1 justify-start items-center min-w-[355px] max-w-[550px]">
+    <div className="relative flex flex-col flex-1 justify-start items-center sm:min-w-[355px] min-w-[300px] max-w-[550px]"
+    style={{
+      background: "radial-gradient(circle, rgba(0,0,0,0.5) 20%, rgba(0,0,0,0) 60%)",
+  }}>
       <img
           className="w-full block object-contain max-h-full"
           src={item.image}
@@ -39,19 +42,19 @@ export default function InstructionCard({ id }: InstructionCardProps) {
       />
       <div className="flex flex-col items-center w-[70%] -mt-61 h-fit md:w-[80%]">
           <p
-              className="text-[#7EC6BC] text-center text-[102px] leading-none"
+              className="text-[#7EC6BC] text-center sm:text-[102px] text-[80px] leading-none mt-[60px] sm:mt-0"
               style={{ fontFamily: "Mouse Memoirs, sans-serif", WebkitTextStroke: "1px white",}}
           >
               {item.number}
           </p>
           <h1 
-              className="text-textPrimary text-[25px] mb-[15px] -m-[5px]"
+              className="text-textPrimary sm:text-[25px] text-[18px] mb-[15px] -m-[5px] text-center"
               style={{ fontFamily: "Mouse Memoirs, sans-serif"}}
           >
               {item.title}
           </h1>
           <p
-              className="text-textPrimary text-[18px] text-center break-words"
+              className="text-textPrimary sm:text-[18px] text-[12px] text-center break-words"
               style={{ fontFamily: "Noto Sans Display, sans-serif"}}
           >
               {item.description}

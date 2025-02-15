@@ -1,6 +1,6 @@
 @media (max-width: 1145px) {
     #outdoorMain {
-        height: 100px; {/* ovo treba sredit */}
+        height: 100px;
     }
     #outdoorMain2 {
         flex-wrap: wrap;

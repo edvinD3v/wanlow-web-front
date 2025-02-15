@@ -1,10 +1,10 @@
-import ArrowButton from "./ui/arrowButton";
+import ArrowButton from "./ui/ArrowButton";
 
 export default function Community() {
     return (
         <div className="flex flex-col mt-[140px] text-center z-1 items-center">
             <h1 
-                className="text-[50px] text-textPrimary"
+                className="sm:text-[50px] text-[40px] text-textPrimary"
                 style={{ fontFamily: "Mouse Memoirs, sans-serif"}}
             >
                 Join Our Community!

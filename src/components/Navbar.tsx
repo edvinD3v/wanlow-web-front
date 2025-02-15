@@ -93,7 +93,7 @@ export default function Navbar() {
       </div>
 
       {/* Mobile Menu (Hidden by default, shown when `isOpen` is true) */}
-      <div className={`absolute top-full left-0 w-full bg-background flex flex-col space-y-4 p-5 px-[10%] shadow-md transition-transform duration-300 md:hidden ${isOpen ? "block" : "hidden"}`}>
+      <div className={`absolute top-full left-0 w-full bg-background flex flex-col space-y-4 p-5 px-[10%] shadow-md transition-transform duration-300 md:hidden z-20 ${isOpen ? "block" : "hidden"}`}>
         <a href="#" className="navBtn">About Us</a>
         <a href="#" className="navBtn">FAQs</a>
         <a href="#" className="navBtn">Contact Us</a>

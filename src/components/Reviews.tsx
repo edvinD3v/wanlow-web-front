@@ -1,17 +1,17 @@
 import Community from "./Community";
-import ArrowButton from "./ui/arrowButton";
+import ArrowButton from "./ui/ArrowButton";
 
 export default function Reviews() {
     return (
-        <div className="flex flex-col items-center justify-center bg-background px-[8%] pb-[10%]">
+        <div className="flex flex-col items-center justify-center bg-background mt-[150px] px-[8%] md:pb-[10%] lg:pb-[15%] pb-[30%] z-100">
             <h2 
-                className="text-[50px] text-textPrimary"
+                className="sm:text-[50px] text-[40px] text-textPrimary text-center"
                 style={{ fontFamily: "Mouse Memoirs, sans-serif"}}
             >
                 What Are Our Adventurers Saying
             </h2>
 
-            <div className="flex items-center justify-center w-full mt-[40px] max-w-[80%] gap-[64px]">
+            <div className="flex items-center justify-center w-full mt-[40px] max-w-[80%] sm:gap-[64px] gap-[30px]">
 
             <ArrowButton right={false}/>
 
@@ -27,7 +27,7 @@ export default function Reviews() {
                 </svg>
 
                 <p 
-                    className="text-textPrimary text-[22px]"
+                    className="text-textPrimary sm:text-[22px] text-[16px]"
                     style={{ fontFamily: "Noto Sans Display, sans-serif"}}
                 >
                     “Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor 
@@ -44,7 +44,7 @@ export default function Reviews() {
                 <ArrowButton right={true}/>
             </div>
             <img className="absolute h-[250px] -left-10" src="/images/background/mapImg.webp" alt="" />
-            <img className="absolute w-[116px] ml-103 mt-22" src="/images/background/binocularsImg.webp" alt="" />
+            <img className="absolute w-[116px] right-0 vlg:right-150 md:right-50" src="/images/background/binocularsImg.webp" alt="" />
             <Community />
         </div>
     );
