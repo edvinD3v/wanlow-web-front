@@ -3,6 +3,7 @@ interface ArrowButtonProps {
 }
 
 export default function ArrowButton({ right }: ArrowButtonProps) {
+    {/* Buttons with arrows, used in Community.tsx and Reviews.tsx */}
     return (
         <button className="group bg-white hover:bg-textPrimarybg-white hover:bg-textPrimary rounded-sm">
             <svg xmlns="http://www.w3.org/2000/svg" width="38" height="38" viewBox="0 0 38 38">

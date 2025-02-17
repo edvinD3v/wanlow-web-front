@@ -19,6 +19,7 @@ export default function HowItWorks() {
         </h1>
 
         <div className="flex flex-wrap gap-[30px] justify-center mx-[8%]">
+            {/* 1, 2, 3 cards with images and instructions */}
             <InstructionCard id={1} />
             <InstructionCard id={2}/>
             <InstructionCard id={3}/>
@@ -30,6 +31,7 @@ export default function HowItWorks() {
             alt="Trail"
         />
 
+        {/* The Welcome Box section with bullet points and a large image  */}
         <WelcomeBox />
     </div>
   )

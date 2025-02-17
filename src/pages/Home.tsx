@@ -9,12 +9,13 @@ export default function Home() {
 
   return (
     <div>
-        <Navbar />
-        <Hero />
-        <HowItWorks />
-        <OutdoorImages />
-        <Reviews />
-        <Footer />
+      {/* Home screen, all components from /components, smaller components (special buttons, cards etc.) in /components/ui */}
+      <Navbar />
+      <Hero />
+      <HowItWorks />
+      <OutdoorImages />
+      <Reviews />
+      <Footer />
     </div>
   )
 }

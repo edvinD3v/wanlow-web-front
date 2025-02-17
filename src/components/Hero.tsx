@@ -1,6 +1,8 @@
 export default function Hero() {
     return (
         <div className="relative flex h-fit w-full">
+            {/* Hero/Get started section with shadow and 2 images in background */}
+            
             {/* Left Image */}
             <img
                 className="relative left-0 top-0 w-1/2 object-contain"

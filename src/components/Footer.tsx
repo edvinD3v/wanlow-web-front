@@ -8,7 +8,7 @@ const theme = createTheme({
     components: {
       MuiTextField: {
         defaultProps: {
-          variant: "filled", // Set variant
+          variant: "filled", // Set variant (see first url above)
         },
       },
       //Modifications on input field
@@ -42,7 +42,7 @@ const theme = createTheme({
           },
         },
       },
-      //Modifications on placeholder (Enter your email)
+      //Modifications on input placeholder ("Enter your email")
       MuiInputLabel: {
         styleOverrides: {
           root: {
@@ -161,10 +161,10 @@ export default function Footer() {
                     </h3>
                     <div className="flex flex-wrap mt-[20px] gap-[10px] sm:justify-start justify-center w-full sm:max-w-fit max-w-min">
 
+                        {/* TextField from mui/material library wrapped in ThemeProvider {theme} defined above to set custom style on TextField */}
                         <ThemeProvider theme={theme}>
                             <TextField label="Enter your email" />
                         </ThemeProvider>
-
 
                         <button
                             className="rounded-md bg-[#7ec6bc] text-[#483729] h-[50px] min-w-[118px] text-[20px] hover:bg-[#629a92] hover:text-white transition duration-300" 

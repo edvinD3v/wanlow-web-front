@@ -1,3 +1,4 @@
+// Styles for responsive design in /styles/outdoorImages.css
 import "../styles/outdoorImages.css";
 import OutdoorBackground from "./ui/OutdoorBackground";
 
@@ -13,7 +14,9 @@ export default function OutdoorImages() {
             //     backgroundPosition: "top center",
             // }}
         >
+            {/* SVG for the blue background, commented background image above can also be used but requires some minor changes to fit well. */}
             <OutdoorBackground />
+            
             <div className="flex flex-col items-center z-10">
                 <h1 
                     className="text-[50px] text-textPrimary mt-[30px]" 

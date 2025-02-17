@@ -1,3 +1,4 @@
+// Styles for responsive design in /styles/welcomeBox.css
 import WelcomeListItem from "./ui/WelcomeListItem";
 import "../styles/welcomeBox.css";
 
@@ -23,6 +24,7 @@ export default function WelcomeBox() {
             </p>
 
             <div className="flex flex-col gap-[30px]">
+                {/* Bullet points */}
                 <WelcomeListItem id={1} />
                 <WelcomeListItem id={2} />
                 <WelcomeListItem id={3} />
