@@ -11,7 +11,7 @@ export default function Reviews() {
                 What Are Our Adventurers Saying
             </h2>
 
-            <div className="flex items-center justify-center w-full mt-[40px] max-w-[80%] sm:gap-[64px] gap-[30px]">
+            <div className="flex items-center justify-center w-full mt-[40px] max-w-[80%] sm:gap-[64px] gap-[30px] z-10">
 
             <ArrowButton right={false}/>
 
